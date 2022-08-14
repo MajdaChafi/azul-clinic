@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Boxicons  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Hospital Website</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <a href="#" class="nav__logo"><h3>AZUL CLINIC</h3></a>
+        <ul id="nav__items">
+          <li><a class="normal" href="#">Home</a></li>
+          <li><a class="normal" href="#services">Services</a></li>
+          <li><a class="normal" href="#specialists">Specialists</a></li>
+          <li><a class="normal" href="#testimonials">Testimonials</a></li>
+          <li><a href="#appointment" class="btn">Make Appointment</a></li>
+        </ul>
+        <button id="open__nav-btn"><i class="bx bx-menu"></i></button>
+        <button id="close__nav-btn"><i class="bx bx-x"></i></button>
+      </div>
+    </nav>
+    <!-- End of Nav -->
+    <header>
+      <div
+        class="hero-image"
+        style="--hero-image: url(/image/about.jpg); --hero-attachment: fixed"
+      >
+        <aside
+          class="hero-image-opacity"
+          style="--hero-opacity-color: var(--black-alpha-color)"
+        >
+          <div class="hero-image-content">
+            <h1
+              class="hero-image-title"
+              style="--hero-text-color: var(--white-color)"
+            >
+              When you need answers,
+              <br />
+              you know where to go.
+            </h1>
+            <p>The No. 1 hospital in the nation, for you.</p>
+            <a href="#appointment" class="btn">Make Appointment</a>
+          </div>
+        </aside>
+      </div>
+    </header>
+    <!-- End of Header -->
+    <section class="services">
+      <h2>Our Services</h2>
+      <p>When you're facing a serious illness, we stand by your side.</p>
+      <div class="services-container">
+        <article class="service-article">
+          <div class="service-wrapper">
+            <div class="service-title">
+              <i class="bx bx-book-content"></i>
+              <h4>Online Booking</h4>
+            </div>
+            <small
+              >The million patients we treat each year prepares us to treat the
+              one who matters most - you.</small
+            >
+          </div>
+        </article>
+        <article class="service-article">
+          <div class="service-wrapper">
+            <div class="service-title">
+              <i class="bx bx-trophy"></i>
+              <h4>Qualified Doctors</h4>
+            </div>
+            <small
+              >Count on our experts to deliver an accurate diagnosis and the
+              right plan for you the first time.</small
+            >
+          </div>
+        </article>
+        <article class="service-article">
+          <div class="service-wrapper">
+            <div class="service-title">
+              <i class="bx bx-support"></i>
+              <h4>Privat Support</h4>
+            </div>
+            <small
+              >Treatment at Wasabi Clinic is a truly human experience. You're
+              cared for as a person first.</small
+            >
+          </div>
+        </article>
+        <article class="service-article">
+          <div class="service-wrapper">
+            <div class="service-title">
+              <i class="bx bx-first-aid"></i>
+              <h4>Need Emergency</h4>
+            </div>
+            <small
+              >Effective treatment depends on getting the right diagnosis as
+              soon as possible. Our specialists collaborate across disciplines
+              to listen to your story.</small
+            >
+          </div>
+        </article>
+        <article class="service-article">
+          <div class="service-wrapper">
+            <div class="service-title">
+              <i class="bx bx-donate-heart"></i>
+              <h4>Well Cared</h4>
+            </div>
+            <small
+              >All of our patient care, education and research are driven to
+              make discoveries that can help heal you.</small
+            >
+          </div>
+        </article>
+        <article class="service-article">
+          <div class="service-wrapper">
+            <div class="service-title">
+              <i class="bx bxl-meta"></i>
+              <h4>24 Hour Service</h4>
+            </div>
+            <small
+              >Compassion is at the heart of our care. At Wasabi Clinic,
+              unhurried, comprehensive evaluations offer the best chance.</small
+            >
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- End of Services -->
+    <section id="specialists">
+      <h2>Our Specialists</h2>
+      <p>
+        We offer an up-to-date medical approach in an ethical and reliable
+        environment.
+      </p>
+      <div class="specialists-container">
+        <article>
+          <div class="specialist__image">
+            <img src="./image/doctors/1.jpg" alt="Specialist One" />
+          </div>
+          <div class="specialist__details">
+            <h4>Dr. Ajit Abraham</h4>
+            <small>Surgery Specialist</small>
+          </div>
+          <div class="specialist__socials">
+            <a href="https://linkedin.com" target="_blank">
+              <i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://twitter.com" target="_blank">
+              <i class="bx bxl-twitter"></i
+            ></a>
+            <a href="https://facebook.com" target="_blank">
+              <i class="bx bxl-facebook"></i
+            ></a>
+            <a href="https://instagram.com" target="_blank">
+              <i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+          <a href="#" class="specialist__whatsapp">
+            <i class="bx bxl-whatsapp"></i>
+          </a>
+        </article>
+        <article>
+          <div class="specialist__image">
+            <img src="./image/doctors/2.jpg" alt="Specialist One" />
+          </div>
+          <div class="specialist__details">
+            <h4>Dr. Anila Adhami</h4>
+            <small>Family Medicine</small>
+          </div>
+          <div class="specialist__socials">
+            <a href="https://linkedin.com" target="_blank">
+              <i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://twitter.com" target="_blank">
+              <i class="bx bxl-twitter"></i
+            ></a>
+            <a href="https://facebook.com" target="_blank">
+              <i class="bx bxl-facebook"></i
+            ></a>
+            <a href="https://instagram.com" target="_blank">
+              <i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+          <a href="#" class="specialist__whatsapp">
+            <i class="bx bxl-whatsapp"></i>
+          </a>
+        </article>
+        <article>
+          <div class="specialist__image">
+            <img src="./image/doctors/3.jpg" alt="Specialist One" />
+          </div>
+          <div class="specialist__details">
+            <h4>Dr. Ricky Aguayo</h4>
+            <small>Cardiology</small>
+          </div>
+          <div class="specialist__socials">
+            <a href="https://linkedin.com" target="_blank">
+              <i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://twitter.com" target="_blank">
+              <i class="bx bxl-twitter"></i
+            ></a>
+            <a href="https://facebook.com" target="_blank">
+              <i class="bx bxl-facebook"></i
+            ></a>
+            <a href="https://instagram.com" target="_blank">
+              <i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+          <a href="#" class="specialist__whatsapp">
+            <i class="bx bxl-whatsapp"></i>
+          </a>
+        </article>
+        <article>
+          <div class="specialist__image">
+            <img src="./image/doctors/4.jpg" alt="Specialist One" />
+          </div>
+          <div class="specialist__details">
+            <h4>Dr. Niti Aggarwal</h4>
+            <small>Ophthalmology</small>
+          </div>
+          <div class="specialist__socials">
+            <a href="https://linkedin.com" target="_blank">
+              <i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://twitter.com" target="_blank">
+              <i class="bx bxl-twitter"></i
+            ></a>
+            <a href="https://facebook.com" target="_blank">
+              <i class="bx bxl-facebook"></i
+            ></a>
+            <a href="https://instagram.com" target="_blank">
+              <i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+          <a href="#" class="specialist__whatsapp">
+            <i class="bx bxl-whatsapp"></i>
+          </a>
+        </article>
+      </div>
+    </section>
+    <!-- End of Specialists -->
+    <section id="testimonials">
+      <h2>What Our Patients Say</h2>
+      <p>
+        At Azul Clinic, patients experience the art of care and the science of
+        medicine. Our global experts make sure you get the personalized
+        attention and care that will help you heal faster.
+      </p>
+      <div class="swiper mySwiper cards">
+        <div class="swiper-wrapper cards-wrapper">
+          <article class="swiper-slide card">
+            <p>
+              Meeting with Dr. Abraham and Dr. Aguayo fully helped me to settle
+              down, and I could ask all my questions. They really helped me to
+              be calm and relaxed.
+            </p>
+            <div class="patient">
+              <div class="avatar">
+                <img src="./image/avatar-1.png" alt="Patient One" />
+              </div>
+              <div class="patient__details">
+                <h5>Nana McBrown</h5>
+                <small>Patient</small>
+              </div>
+            </div>
+          </article>
+          <article class="swiper-slide card">
+            <p>
+              I needed to get this behind me and get back to being a dad, and
+              being a husband, and being a professional. I couldn't have been at
+              a better place to do that.
+            </p>
+            <div class="patient">
+              <div class="avatar">
+                <img src="./image/avatar-2.png" alt="Patient Two" />
+              </div>
+              <div class="patient__details">
+                <h5>John Diaz</h5>
+                <small>Patient</small>
+              </div>
+            </div>
+          </article>
+          <article class="swiper-slide card">
+            <p>
+              From the doctors to the nurses to the physical therapists,
+              everybody wants to do what's best for the patient. That's what
+              makes Azul different in my eyes.
+            </p>
+            <div class="patient">
+              <div class="avatar">
+                <img src="./image/avatar-3.jpg" alt="Patient Three" />
+              </div>
+              <div class="patient__details">
+                <h5>Peter Rocha</h5>
+                <small>Patient</small>
+              </div>
+            </div>
+          </article>
+          <article class="swiper-slide card">
+            <p>
+              (Dr. Adhami) told me he had a whole team of people in place to
+              take care of me, and I knew I was in the right hands, at the right
+              place, at the right time.
+            </p>
+            <div class="patient">
+              <div class="avatar">
+                <img src="./image/avatar-4.png" alt="Patient Four" />
+              </div>
+              <div class="patient__details">
+                <h5>Hannah Morillo</h5>
+                <small>Patient</small>
+              </div>
+            </div>
+          </article>
+          <article class="swiper-slide card">
+            <p>
+              I wanted to take the time to thank you all for the care and
+              support I received at your facility. I was treated with empathy
+              and respect during one of the most difficult times in my life. I
+              can’t express how much it means that there are people who
+              understand.
+            </p>
+            <div class="patient">
+              <div class="avatar">
+                <img src="./image/avatar-5.jpg" alt="Patient Five" />
+              </div>
+              <div class="patient__details">
+                <h5>Anastasia Jackson</h5>
+                <small>Patient</small>
+              </div>
+            </div>
+          </article>
+          <article class="swiper-slide card">
+            <p>
+              Could have never imagined a staff more caring and thoughtful as
+              yours, during a very unpleasant time in my life. The absolute
+              comfort and kindness from the staff made a nightmarish situation
+              more than tolerable for me. Thank you for your help.
+            </p>
+            <div class="patient">
+              <div class="avatar">
+                <img src="./image/avatar-6.png" alt="Patient Six" />
+              </div>
+              <div class="patient__details">
+                <h5>Matt Gilmore</h5>
+                <small>Patient</small>
+              </div>
+            </div>
+          </article>
+          <article class="swiper-slide card">
+            <p>
+              I love this clinic and everyone I have had contact with here. My
+              doctor treats me with respect and looks for my input before making
+              final decisions about medications or referrals. She always takes
+              time to answer questions, and it is clear to me that she remembers
+              me from one visit to the next.
+            </p>
+            <div class="patient">
+              <div class="avatar">
+                <img src="./image/avatar-7.jpg" alt="Patient Seven" />
+              </div>
+              <div class="patient__details">
+                <h5>Andrea Piquadro</h5>
+                <small>Patient</small>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="swiper-button-next right"></div>
+        <div class="swiper-button-prev left"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- End of Testimonials -->
+    <section class="appointment">
+      <div class="appointment-container">
+        <div class="appointment-info">
+          <h2>Get An Appointment</h2>
+          <p>When it's time to find answers, you know where to go.</p>
+          <article class="appointment-article">
+            <div class="appointment-icon">
+              <i class="bx bx-user"></i>
+            </div>
+            <div class="appointment-title">
+              <h4>Experience Doctors</h4>
+            </div>
+            <div class="appointment-text">
+              <small
+                >Every year, more than a million people come to Mayo Clinic for
+                care. Our highly specialized experts are more experienced in
+                treating rare and complex conditions.</small
+              >
+            </div>
+          </article>
+          <article class="appointment-article">
+            <div class="appointment-icon">
+              <i class="bx bx-band-aid"></i>
+            </div>
+            <div class="appointment-title">
+              <h4>Advanced Technology</h4>
+            </div>
+            <div class="appointment-text">
+              <small
+                >At Azul Clinic, every aspect of your care is coordinated and
+                teams of experts work together to provide exactly the care you
+                need. What might take months elsewhere can often be done in days
+                here.</small
+              >
+            </div>
+          </article>
+          <article class="appointment-article">
+            <div class="appointment-icon">
+              <i class="bx bx-first-aid"></i>
+            </div>
+            <div class="appointment-title">
+              <h4>Emergency Care</h4>
+            </div>
+            <div class="appointment-text">
+              <small
+                >Successful treatment starts with an accurate diagnosis, and our
+                experts take the time to get it right. A team of specialists
+                will listen to your condition from every angle to make the very
+                best plan for you.</small
+              >
+            </div>
+          </article>
+        </div>
+        <form
+          action="https://formspree.io/f/xjvzvwlz"
+          method="POST"
+          class="form"
+        >
+          <div class="form__group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              placeholder="Enter Your Name"
+              pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+              name="Patient's Name"
+              id="name"
+              required
+            />
+          </div>
+          <div class="form__group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              placeholder="Enter your Email"
+              pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+              name="Patient's Email"
+              id="email"
+              required
+            />
+          </div>
+          <div class="form__group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              placeholder="Enter Your Phone"
+              name="Patient's Phone"
+              id="phone"
+              required
+            />
+          </div>
+          <div class="form__group">
+            <label for="date">Date</label>
+            <input
+              type="date"
+              placeholder="Choose a date"
+              name="Date"
+              id="date"
+              required
+            />
+          </div>
+          <div class="form__group">
+            <label for="department">Select Department</label>
+            <select name="Department" id="department" required>
+              <option value="">-- Choose a Department --</option>
+              <option value="Surgery Specialist">Surgery Specialist</option>
+              <option value="Family Medicine">Family Medicine</option>
+              <option value="Cardiology">Cardiology</option>
+              <option value="Ophthalmology">Ophthalmology</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label for="doctor">Select Doctor</label>
+            <select name="Doctor" id="doctor" required>
+              <option value="">-- Choose a Doctor --</option>
+              <option value="Doctor Ajit Abraham">Doctor Ajit Abraham</option>
+              <option value="Doctor Anila Adhami">Doctor Anila Adhami</option>
+              <option value="Doctor Ricky Aguayo">Doctor Ricky Aguayo</option>
+              <option value="Doctor Niti Aggarwal">Doctor Niti Aggarwal</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label for="message">Additional Message</label>
+            <textarea
+              name="Added message"
+              id="message"
+              rows="6"
+              placeholder="Add a message"
+              required
+            ></textarea>
+          </div>
+          <input type="submit" value="Submit Request" class="btn" />
+        </form>
+      </div>
+    </section>
+    <!-- End of Appointment -->
+    <footer class="footer">
+      <div class="footer-container">
+        <article class="footer-article">
+          <a href="#" class="footer__logo"><h3>AZUL CLINIC</h3></a>
+          <p>
+            Azul Clinic is a non-profit worldwide leader in medical care for
+            everyone who needs healing.
+          </p>
+          <div class="footer-phone">
+            <i class="bx bxs-phone"></i>
+            <a href=""><small>+2335678946</small></a>
+          </div>
+          <div class="footer-mail">
+            <i class="bx bx-mail-send"></i>
+            <a href=""><small>support@azul.com</small></a>
+          </div>
+        </article>
+        <article class="footer-article">
+          <h3>Support</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Purchasing Policy</a></li>
+            <li><a href="#">Terms & Condition</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </article>
+        <article class="footer-article">
+          <h3>Menu</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#specialists">Specialists</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#appointment" class="btn">Get Appointment</a></li>
+          </ul>
+        </article>
+        <article class="footer-article">
+          <h3>Contact Us</h3>
+          <a href="#"><p>Press</p></a>
+          <a href="#"><p>FAQs</p></a>
+          <div class="footer-socials">
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+          </div>
+        </article>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
